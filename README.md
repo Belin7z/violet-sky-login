@@ -1,73 +1,51 @@
-# Welcome to your Lovable project
+# Violet Sky Login
 
-## Project info
+Uma tela de login e cadastro moderna com visual escuro e tons de roxo/violeta, construída com React, TypeScript e Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Preview
 
-## How can I edit this code?
+> Adicione um screenshot ou GIF do projeto aqui.
+> Tire um print da tela e salve como `assets/preview.png` na raiz do repo, depois remova este bloco e a imagem aparecera automaticamente.
 
-There are several ways of editing your application.
+<!-- Descomente a linha abaixo apos adicionar o arquivo assets/preview.png -->
+<!-- <img src="assets/preview.png" alt="Violet Sky Login Preview" width="700" /> -->
 
-**Use Lovable**
+## Tecnologias
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+## Como rodar localmente
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# 1. Clone o repositorio
+git clone https://github.com/Belin7z/violet-sky-login.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 2. Entre na pasta
+cd violet-sky-login
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3. Instale as dependencias
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Rode o servidor de desenvolvimento
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Abra [http://localhost:5173](http://localhost:5173) no navegador.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Estrutura do projeto
 
-**Use GitHub Codespaces**
+```
+src/
+  components/   # Componentes React
+  pages/        # Paginas da aplicacao
+  styles/       # Estilos globais
+public/         # Arquivos publicos estaticos
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Feito por
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+[Belin7z](https://github.com/Belin7z)
