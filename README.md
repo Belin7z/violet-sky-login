@@ -1,5 +1,9 @@
 # Violet Sky Login
 
+[![Deploy](https://github.com/Belin7z/violet-sky-login/actions/workflows/deploy.yml/badge.svg)](https://github.com/Belin7z/violet-sky-login/actions/workflows/deploy.yml)
+
+**Demo ao vivo:** https://belin7z.github.io/violet-sky-login/
+
 Uma tela de login e cadastro moderna com visual escuro e tons de roxo/violeta, construída com React, TypeScript e Tailwind CSS.
 
 ## Preview
