@@ -45,6 +45,7 @@ export function LoginCard() {
                 type="email"
                 placeholder="seu@email.com"
                 className="pl-10"
+                autoComplete="off"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
